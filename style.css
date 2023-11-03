@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Add this to distribute space between columns */
+}
+
+.custom-col {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 48%; /* Set a max width to make sure the columns don't get too wide */
+}
